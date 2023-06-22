@@ -1,0 +1,59 @@
+/* Main Color: #54BD95 */
+/* Gray Color:  #ccc and #f8f8f8 */
+
+/* Tints and Shades:
+
+Shades:
+#4caa86 , #439777
+Tints:
+#65c4a0 , #76caaa , #87d1b5 */
+
+/* Shades:  
+
+Shades:
+#a3a3a3 , #8f8f8f */
+
+/* Global Declarations */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  color: #000;
+}
+
+p {
+  line-height: 2;
+  color: #000;
+}
+/* Reusable */
+
+.grid-col-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  opacity: 0;
+  animation: fade-in 0.5s ease-in-out forwards;
+}
+
+.btn--green {
+  color: #fff;
+  background-color: #54bd95;
+  padding: 20px 30px;
+  border-radius: 40px;
+  text-decoration: none;
+}
+
+.btn--green:hover {
+  background-color: #76caaa;
+}
+
+.btn--white {
+}
+
+.btn--transparent {
+  color: #191a15;
+  text-decoration: none;
+}
