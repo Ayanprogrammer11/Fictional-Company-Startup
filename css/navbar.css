@@ -1,7 +1,8 @@
 /* Navbar */
 
 header {
-  padding: 15px;
+  padding: 1.5rem; /* 15px */
+  font-size: 1.5rem; /* 15px */
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -18,14 +19,14 @@ header {
 .nav-items {
   display: flex;
   list-style: none;
-  gap: 30px;
+  gap: 3rem; /* 30px */
 }
 
 .nav-link {
   text-decoration: none;
   color: #ccc;
-  padding: 10px 8px;
-  border-radius: 10px;
+  padding: 1rem 0.8rem; /* 10px 8px */
+  border-radius: 1rem; /* 10px */
   transition: 0.2s all;
 }
 
@@ -38,8 +39,8 @@ header {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  padding: 8px;
-  gap: 25px;
+  padding: 0.8rem; /* 8px */
+  gap: 2.5rem; /* 25px */
 }
 
 .authorization-separator .login {
@@ -54,8 +55,8 @@ header {
   display: inline-block;
   background-color: #54bd95;
   color: #f8f8fa;
-  padding: 10px;
-  border-radius: 10px;
+  padding: 1rem; /* 10px */
+  border-radius: 1rem; /* 10px */
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
 

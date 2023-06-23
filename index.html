@@ -14,147 +14,146 @@
     <link rel="stylesheet" href="css/globals.css" />
     <link rel="stylesheet" href="css/navbar.css" />
     <link rel="stylesheet" href="css/landing.css" />
+    <link rel="stylesheet" href="css/mediaqueries.css" />
   </head>
 
   <body>
-    <div class="nav-and-landing-wrapper">
-      <header>
-        <h1 class="logo">Bicaas</h1>
-        <nav class="navbar">
-          <ul class="nav-items">
-            <li class="nav-item">
-              <a href="#" class="nav-link" style="color: #000">Home</a>
-            </li>
-            <li class="nav-item"><a href="#" class="nav-link">Product</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">FAQ</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Blog</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">About Us</a></li>
-          </ul>
-        </nav>
-        <div class="authorization-separator">
-          <a href="#" class="nav-link login">Login</a>
-          <a href="#" class="nav-link signup">Signup</a>
-        </div>
-      </header>
+    <header>
+      <h1 class="logo">Bicaas</h1>
+      <nav class="navbar">
+        <ul class="nav-items">
+          <li class="nav-item">
+            <a href="#" class="nav-link" style="color: #000">Home</a>
+          </li>
+          <li class="nav-item"><a href="#" class="nav-link">Product</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">FAQ</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Blog</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">About Us</a></li>
+        </ul>
+      </nav>
+      <div class="authorization-separator">
+        <a href="#" class="nav-link login">Login</a>
+        <a href="#" class="nav-link signup">Signup</a>
+      </div>
+    </header>
 
-      <section id="landing-section">
-        <div class="grid-col-2">
-          <div class="landing-text-box">
-            <h1>We’re here to Increase your Productivity</h1>
+    <section id="landing-section">
+      <div class="flex-container">
+        <div class="landing-text-box">
+          <h1>We’re here to Increase your Productivity</h1>
+          <svg
+            width="487"
+            height="34"
+            viewBox="0 0 487 34"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            class="landing-illustration"
+          >
+            <path
+              d="M4 30C73.6307 10.3798 266.914 -17.0885 483 30"
+              stroke="#54BD95"
+              stroke-width="8"
+              stroke-linecap="round"
+            />
+          </svg>
+          <p class="landing-text">
+            Let's make your work more organize and easily using the Taskio
+            Dashboard with many of the latest featuresin managing work every
+            day.
+          </p>
+          <div class="landing-ctas">
+            <a href="hey.com" class="btn--green" style="margin-right: 40px"
+              >Try Free Trial</a
+            >
             <svg
-              width="487"
-              height="34"
-              viewBox="0 0 487 34"
+              width="40"
+              height="40"
+              viewBox="0 0 40 40"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
-              class="landing-illustration"
             >
               <path
-                d="M4 30C73.6307 10.3798 266.914 -17.0885 483 30"
-                stroke="#54BD95"
-                stroke-width="8"
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M20 4.16675C28.7432 4.16675 35.8333 11.2553 35.8333 20.0001C35.8333 28.7448 28.7432 35.8334 20 35.8334C11.2552 35.8334 4.16666 28.7448 4.16666 20.0001C4.16666 11.2553 11.2552 4.16675 20 4.16675Z"
+                stroke="#191A15"
+                stroke-width="1.5"
                 stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M25 19.9919C25 18.64 18.0709 14.3152 17.2848 15.0928C16.4988 15.8705 16.4232 24.0401 17.2848 24.891C18.1464 25.7449 25 21.3438 25 19.9919Z"
+                stroke="#191A15"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
               />
             </svg>
-            <p class="landing-text">
-              Let's make your work more organize and easily using the Taskio
-              Dashboard with many of the latest featuresin managing work every
-              day.
-            </p>
-            <div class="landing-ctas">
-              <a href="hey.com" class="btn--green" style="margin-right: 40px"
-                >Try Free Trial</a
-              >
-              <svg
-                width="40"
-                height="40"
-                viewBox="0 0 40 40"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
-                  d="M20 4.16675C28.7432 4.16675 35.8333 11.2553 35.8333 20.0001C35.8333 28.7448 28.7432 35.8334 20 35.8334C11.2552 35.8334 4.16666 28.7448 4.16666 20.0001C4.16666 11.2553 11.2552 4.16675 20 4.16675Z"
-                  stroke="#191A15"
-                  stroke-width="1.5"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-                <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
-                  d="M25 19.9919C25 18.64 18.0709 14.3152 17.2848 15.0928C16.4988 15.8705 16.4232 24.0401 17.2848 24.891C18.1464 25.7449 25 21.3438 25 19.9919Z"
-                  stroke="#191A15"
-                  stroke-width="1.5"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-              </svg>
-              <a href="#" class="btn--transparent"> View Demo</a>
-            </div>
-          </div>
-          <div class="landing-img">
-            <img src="./img/Group 138.png" alt="" />
+            <a href="#" class="btn--transparent"> View Demo</a>
           </div>
         </div>
+        <div class="landing-img">
+          <img src="./img/Group 138.png" alt="" />
+        </div>
+      </div>
 
-        <div class="landing-companies-box">
-          <h2>More than 25,000 teams use Collabs</h2>
-          <div class="companies">
-            <svg
-              width="64px"
-              height="64px"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
-              fill="#000000"
-            >
-              <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-              <g
-                id="SVGRepo_tracerCarrier"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              ></g>
-              <g id="SVGRepo_iconCarrier">
-                <g>
-                  <path fill="none" d="M0 0H24V24H0z"></path>
-                  <path d="M8.5 11v5h7v-5H21v10H3V11h5.5zm7-8v5h-7V3h7z"></path>
-                </g>
+      <div class="landing-companies-box">
+        <h2>More than 25,000 teams use Collabs</h2>
+        <div class="companies">
+          <svg
+            width="64px"
+            height="64px"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="#000000"
+          >
+            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+            <g
+              id="SVGRepo_tracerCarrier"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            ></g>
+            <g id="SVGRepo_iconCarrier">
+              <g>
+                <path fill="none" d="M0 0H24V24H0z"></path>
+                <path d="M8.5 11v5h7v-5H21v10H3V11h5.5zm7-8v5h-7V3h7z"></path>
               </g>
-            </svg>
-            <p class="unsplash">UNSPLASH</p>
-            <svg
-              width="64px"
-              height="64px"
-              viewBox="0 0 15.00 15.00"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-              stroke="#A6A6A6"
-              stroke-width="0.00015000000000000001"
-            >
-              <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-              <g
-                id="SVGRepo_tracerCarrier"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              ></g>
-              <g id="SVGRepo_iconCarrier">
-                <path
-                  d="M3.25781 3.11684C3.67771 3.45796 3.83523 3.43193 4.62369 3.37933L12.0571 2.93299C12.2147 2.93299 12.0836 2.77571 12.0311 2.74957L10.7965 1.85711C10.56 1.67347 10.2448 1.46315 9.64083 1.51576L2.44308 2.04074C2.18059 2.06677 2.12815 2.19801 2.2327 2.30322L3.25781 3.11684ZM3.7041 4.84917V12.6704C3.7041 13.0907 3.91415 13.248 4.38693 13.222L12.5562 12.7493C13.0292 12.7233 13.0819 12.4341 13.0819 12.0927V4.32397C13.0819 3.98306 12.9508 3.79921 12.6612 3.82545L4.12422 4.32397C3.80918 4.35044 3.7041 4.50803 3.7041 4.84917ZM11.7688 5.26872C11.8212 5.50518 11.7688 5.74142 11.5319 5.76799L11.1383 5.84641V11.6205C10.7965 11.8042 10.4814 11.9092 10.2188 11.9092C9.79835 11.9092 9.69305 11.7779 9.37812 11.3844L6.80345 7.34249V11.2532L7.61816 11.437C7.61816 11.437 7.61816 11.9092 6.96086 11.9092L5.14879 12.0143C5.09615 11.9092 5.14879 11.647 5.33259 11.5944L5.80546 11.4634V6.29276L5.1489 6.24015C5.09625 6.00369 5.22739 5.66278 5.5954 5.63631L7.53935 5.50528L10.2188 9.5998V5.97765L9.53564 5.89924C9.4832 5.61018 9.69305 5.40028 9.95576 5.37425L11.7688 5.26872ZM1.83874 1.33212L9.32557 0.780787C10.245 0.701932 10.4815 0.754753 11.0594 1.17452L13.4492 2.85424C13.8436 3.14309 13.975 3.22173 13.975 3.53661V12.7493C13.975 13.3266 13.7647 13.6681 13.0293 13.7203L4.33492 14.2454C3.78291 14.2717 3.52019 14.193 3.23111 13.8253L1.47116 11.5419C1.1558 11.1216 1.02466 10.8071 1.02466 10.4392V2.25041C1.02466 1.77825 1.23504 1.38441 1.83874 1.33212Z"
-                  fill="#000000"
-                ></path>
-              </g>
-            </svg>
-            <p class="notion">NOTION</p>
-            <img src="img/intercom-2.svg" alt="" height="64px" height="64px" />
-            <p class="intercom">INTERCOM</p>
-            <img src="img/descript.svg" alt="" height="64px" width="64px" />
-            <p class="descript">DESCRIPT</p>
-            <img src="img/grammarly.svg" alt="" height="64px" width="64px" />
-            <p class="grammarly">GRAMMARLY</p>
-          </div>
+            </g>
+          </svg>
+          <p class="unsplash">UNSPLASH</p>
+          <svg
+            width="64px"
+            height="64px"
+            viewBox="0 0 15.00 15.00"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            stroke="#A6A6A6"
+            stroke-width="0.00015000000000000001"
+          >
+            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+            <g
+              id="SVGRepo_tracerCarrier"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            ></g>
+            <g id="SVGRepo_iconCarrier">
+              <path
+                d="M3.25781 3.11684C3.67771 3.45796 3.83523 3.43193 4.62369 3.37933L12.0571 2.93299C12.2147 2.93299 12.0836 2.77571 12.0311 2.74957L10.7965 1.85711C10.56 1.67347 10.2448 1.46315 9.64083 1.51576L2.44308 2.04074C2.18059 2.06677 2.12815 2.19801 2.2327 2.30322L3.25781 3.11684ZM3.7041 4.84917V12.6704C3.7041 13.0907 3.91415 13.248 4.38693 13.222L12.5562 12.7493C13.0292 12.7233 13.0819 12.4341 13.0819 12.0927V4.32397C13.0819 3.98306 12.9508 3.79921 12.6612 3.82545L4.12422 4.32397C3.80918 4.35044 3.7041 4.50803 3.7041 4.84917ZM11.7688 5.26872C11.8212 5.50518 11.7688 5.74142 11.5319 5.76799L11.1383 5.84641V11.6205C10.7965 11.8042 10.4814 11.9092 10.2188 11.9092C9.79835 11.9092 9.69305 11.7779 9.37812 11.3844L6.80345 7.34249V11.2532L7.61816 11.437C7.61816 11.437 7.61816 11.9092 6.96086 11.9092L5.14879 12.0143C5.09615 11.9092 5.14879 11.647 5.33259 11.5944L5.80546 11.4634V6.29276L5.1489 6.24015C5.09625 6.00369 5.22739 5.66278 5.5954 5.63631L7.53935 5.50528L10.2188 9.5998V5.97765L9.53564 5.89924C9.4832 5.61018 9.69305 5.40028 9.95576 5.37425L11.7688 5.26872ZM1.83874 1.33212L9.32557 0.780787C10.245 0.701932 10.4815 0.754753 11.0594 1.17452L13.4492 2.85424C13.8436 3.14309 13.975 3.22173 13.975 3.53661V12.7493C13.975 13.3266 13.7647 13.6681 13.0293 13.7203L4.33492 14.2454C3.78291 14.2717 3.52019 14.193 3.23111 13.8253L1.47116 11.5419C1.1558 11.1216 1.02466 10.8071 1.02466 10.4392V2.25041C1.02466 1.77825 1.23504 1.38441 1.83874 1.33212Z"
+                fill="#000000"
+              ></path>
+            </g>
+          </svg>
+          <p class="notion">NOTION</p>
+          <img src="img/intercom-2.svg" alt="" height="64px" height="64px" />
+          <p class="intercom">INTERCOM</p>
+          <img src="img/descript.svg" alt="" height="64px" width="64px" />
+          <p class="descript">DESCRIPT</p>
+          <img src="img/grammarly.svg" alt="" height="64px" width="64px" />
+          <p class="grammarly">GRAMMARLY</p>
         </div>
-      </section>
-    </div>
+      </div>
+    </section>
   </body>
 </html>

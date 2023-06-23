@@ -1,14 +1,5 @@
 #landing-section {
-  margin-top: 60px;
-}
-
-.nav-and-landing-wrapper {
-  background: linear-gradient(
-    to bottom right,
-    rgba(82, 189, 170, 0.2),
-    rgba(255, 255, 255, 0.2),
-    rgba(84, 190, 150, 0.2)
-  );
+  margin-top: 6rem; /* 60px */
 }
 
 /* .nav-and-landing-wrapper::before {
@@ -24,62 +15,57 @@
 } */
 
 .landing-text-box {
-  padding: 25px;
+  padding: 2.5rem; /* 25px */
   justify-self: center;
   text-align: center;
 }
 
 .landing-text-box h1 {
-  font-size: 80px;
+  font-size: 8.6rem; /* 86px */
   font-weight: 700;
   line-height: 1.2;
-  letter-spacing: -2px;
-}
-
-.content {
+  letter-spacing: -0.2rem;
 }
 
 .landing-illustration {
-  margin-top: 32px;
-  margin-bottom: 32px;
+  margin-top: 3.2rem; /* 32px */
+  margin-bottom: 3.2rem; /* 32px */
 }
 
 .landing-text {
-  font-size: 18px;
+  font-size: 1.8rem; /* 18px */
   font-weight: 500;
-  text-align: left;
-  padding: 0 120px;
 }
 
 .landing-ctas {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
-  margin-top: 42px;
-  margin-left: 110px;
+  margin-top: 4.2rem; /* 42px */
 }
 
 .landing-companies-box {
-  margin-top: 100px;
+  margin-top: 10rem; /* 100px */
   text-align: center;
 }
 
 .landing-companies-box h2 {
-  font-size: 40px;
+  font-size: 4.4rem; /* 44px */
   font-weight: 700;
 }
 
 .companies {
-  margin-top: 62px;
+  margin-top: 6.2rem; /* 62px */
   display: flex;
-  gap: 40px;
+  gap: 4.8rem; /* 48px */
   justify-content: center;
   align-items: center;
+  padding: 1.4rem;
 }
 
 .companies p {
   font-weight: 700;
-  font-size: 20px;
+  font-size: 2.4rem; /* 24px */
 }
 
 .intercom {
@@ -89,6 +75,7 @@
 .descript {
   color: #479dff;
 }
+
 .grammarly {
-  color: #54b948;
+  color: #54bd48;
 }
