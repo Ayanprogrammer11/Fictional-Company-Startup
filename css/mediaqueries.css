@@ -4,7 +4,7 @@
 @media (max-width: 768px) {
   /* Styles for small screens (smartphones) go here */
   html {
-    font-size: 43.75%;
+    font-size: 50%;
   }
   header {
     justify-content: flex-start;
@@ -51,5 +51,17 @@
   /* Styles for large screens (tablets and small desktops) go here */
   html {
     font-size: 56.25%;
+  }
+  header {
+    justify-content: flex-start;
+  }
+  .navbar,
+  .authorization-separator {
+    display: none;
+  }
+  .flex-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }
